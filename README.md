@@ -20,3 +20,4 @@ https://aws.amazon.com/blogs/security/how-to-add-authentication-single-page-web-
 7. Edit userprofile.js and set your domain, region, appClientId, userPoolId and redirectURI from Cognito configuration
 8. Edit data.js and set your API Gateway URL endpoint (eq. https://123.execute-api.ap-southeast-1.amazonaws.com/dev/vod)
 9. Upload all files to VoD "Destination" folder in S3.
+10. Access the UI via your CloudFront address (eq. https://123.cloudfront.net/video.html)
