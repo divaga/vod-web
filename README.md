@@ -16,7 +16,7 @@ https://aws.amazon.com/blogs/security/how-to-add-authentication-single-page-web-
 3. Add "title" column in DynamoDB Table, you need to manually fill in the title for each video, or you can just display video url.
 4. Create Cognito domain in Cognito
 5. Create user in Cognito
-6. Create App Client in Cognito, tick on "Cognito User Pool" and provide Callback URL with your CloudFront url from step. 1 + video.html (eq. https://123.cloudfront.net/video.html. On OAuth 2.0 section, tick on "Authorization code grant" and "openid" option
+6. Create App Client in Cognito, tick on "Cognito User Pool" and provide Callback URL with your CloudFront url from step. 1 + video.html (eq. https://123.cloudfront.net/video.html). On OAuth 2.0 section, tick on "Authorization code grant" and "openid" option
 7. Edit userprofile.js and set your domain, region, appClientId, userPoolId and redirectURI from Cognito configuration
-8. Edit data.js and set your API Gateway URL endpoint (eq. https://123.execute-api.ap-southeast-1.amazonaws.com/dev/vod
+8. Edit data.js and set your API Gateway URL endpoint (eq. https://123.execute-api.ap-southeast-1.amazonaws.com/dev/vod)
 9. Upload all files to VoD "Destination" folder in S3.
